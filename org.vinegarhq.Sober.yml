@@ -58,8 +58,8 @@ modules:
     sources:
       - type: archive
         # *** The notice applies to the binaries we distribute. See: https://sober.vinegarhq.org/notice.txt
-        url: https://sober.vinegarhq.org/artifacts/2025-03-31_4b714c6-1.0.0/prod/sober-binaries-unified.zip
-        sha256: fa022580b095473da5a7fa40a2c645261ead620315c5ac10c127b344c70b111c
+        url: https://sober.vinegarhq.org/artifacts/2025-03-31_1ca5d06-1.0.0/prod/sober-binaries-unified.zip
+        sha256: 71bdf993b49004bc61805e7b21f92585290a0fb9bb88ec98399ca0dc4ab0c25d
         # I mean, we only support x86_64 anyway. But annotating is probably helpful.
         only-arches:
           - x86_64
