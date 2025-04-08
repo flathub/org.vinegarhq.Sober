@@ -49,7 +49,7 @@ modules:
     sources:
       - type: archive
         # *** The notice applies to the binaries we distribute. See: https://sober.vinegarhq.org/notice.txt
-        url: https://sober.vinegarhq.org/artifacts/2025-04-08_d9d4da3/sober-flatpak-bundle.tar.zst
+        url: https://sober.vinegarhq.org/artifacts/2025-04-08_d9d4da3/sober-binaries-unified.tar.zst
         strip-components: 1
         sha256: 2afc9060ace159e19fd34a8ed508c5ef87d5ecec62cd8c2f4733dc632f2aaf8b
         only-arches:
