@@ -43,14 +43,16 @@ modules:
     build-commands:
       - install -Dm755 sober -t /app/bin/
       - install -Dm755 sober_services -t /app/bin/
+      - install -Dm755 libmimalloc.so -t /app/bin/
+      - install -Dm755 libloader.so -t /app/bin/
       - install -Dm644 org.vinegarhq.Sober.metainfo.xml -t /app/share/metainfo/
       - install -Dm644 org.vinegarhq.Sober.desktop /app/share/applications/org.vinegarhq.Sober.desktop
       - install -Dm644 sober.svg /app/share/icons/hicolor/scalable/apps/org.vinegarhq.Sober.svg
     sources:
       - type: archive
         # *** The notice applies to the binaries we distribute. See: https://sober.vinegarhq.org/notice.txt
-        url: https://sober.vinegarhq.org/artifacts/2025-09-04_7199f98/b75101864db047fc29add2d32f79aeb825f306fb0b6c2ab506a0a8790b60505e/sober-binaries-unified.tar.zst
+        url: https://sober.vinegarhq.org/artifacts/2025-09-06_39315c7/e1ca5d125e351a620189b02c33ae8b701c799568e68e1462a2ef7d56bbb3b72f/sober-binaries-unified.tar.zst
         strip-components: 1
-        sha256: b75101864db047fc29add2d32f79aeb825f306fb0b6c2ab506a0a8790b60505e
+        sha256: e1ca5d125e351a620189b02c33ae8b701c799568e68e1462a2ef7d56bbb3b72f
         only-arches:
           - x86_64
