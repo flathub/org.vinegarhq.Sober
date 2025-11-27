@@ -6,7 +6,7 @@ command: sober
 separate-locales: false
 finish-args:
   # Required for 3D rendering. Non-optional.
-  # SECURITY: this is a safe permission
+  # SECURITY: this is a safe permission.
   - --device=dri
   # Required by the game. Non-optional for now, sadly.
   # SECURITY: How bad is device=shm? should we try making a workaround?
@@ -19,7 +19,7 @@ finish-args:
   # Both Sober & Roblox require network access to work. Non-optional.
   - --share=network
   # Window server access is required to display the game & menus. Non-optional.
-  # SECURITY: users should try using Wayland where possible
+  # SECURITY: users should try using Wayland where possible.
   - --socket=wayland
   - --socket=fallback-x11
   # Required for game audio & microphone access when using the optional voice chat feature. Optional, but heavily recommended.
