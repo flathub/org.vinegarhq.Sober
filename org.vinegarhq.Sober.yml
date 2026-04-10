@@ -9,9 +9,7 @@ finish-args:
   # SECURITY: this is a safe permission.
   - --device=dri
   # Required by the game. Non-optional for now, sadly.
-  # SECURITY: How bad is device=shm? should we try making a workaround?
   # SECURITY: ptrace access inside the sandbox should be no big deal, really :)
-  - --device=shm
   - --allow=devel
   # X11 performance, also required by the game. Non-optional for now, sadly.
   # SECURITY: How bad is sharing IPC namespaces? should we try making a workaround?
@@ -43,8 +41,8 @@ modules:
     sources:
       - type: archive
         # *** The notice applies to the binaries we distribute. See: https://sober.vinegarhq.org/notice.txt
-        url: https://sober.vinegarhq.org/artifacts/2026-03-29_18ee06d/851c2775d8acfdfe8cd15b3864c0d5ca8088bccff73d94a8cf167c71b57a3ce5/sober-binaries-unified.tar.zst
+        url: https://sober.vinegarhq.org/artifacts/2026-04-10_df07c62/f93520f42d61728dd35f0a9080bfb30f678f70398eb6294c7b24c6fa8291ed92/sober-binaries-unified.tar.zst
         strip-components: 1
-        sha256: 851c2775d8acfdfe8cd15b3864c0d5ca8088bccff73d94a8cf167c71b57a3ce5
+        sha256: f93520f42d61728dd35f0a9080bfb30f678f70398eb6294c7b24c6fa8291ed92
         only-arches:
           - x86_64
