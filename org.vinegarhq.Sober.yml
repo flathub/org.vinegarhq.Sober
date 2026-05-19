@@ -4,6 +4,8 @@ runtime-version: '50'
 sdk: org.gnome.Sdk
 command: sober
 separate-locales: false
+tags: 
+  - proprietary
 finish-args:
   # Required for 3D rendering. Non-optional.
   # SECURITY: this is a safe permission.
