@@ -43,8 +43,8 @@ modules:
     sources:
       - type: archive
         # *** The notice applies to the binaries we distribute. See: https://sober.vinegarhq.org/notice.txt
-        url: https://sober.vinegarhq.org/artifacts/2026-06-07_4506572/2181cb7043f64aba40df8b0cde6d7817ce7e8f73f53dc7dc5335bef855f29d69/sober-binaries-unified.tar.zst
+        url: https://sober.vinegarhq.org/artifacts/2026-06-08_43d37ae/43721bc8aeeffff04e273f07f80f8211960269d4f423568c7d36eea3c04465a2/sober-binaries-unified.tar.zst
         strip-components: 1
-        sha256: 2181cb7043f64aba40df8b0cde6d7817ce7e8f73f53dc7dc5335bef855f29d69
+        sha256: 43721bc8aeeffff04e273f07f80f8211960269d4f423568c7d36eea3c04465a2
         only-arches:
           - x86_64
